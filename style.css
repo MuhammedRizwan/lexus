@@ -1,0 +1,712 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Franklin Gothic Medium';
+}
+.navbar{
+    width: 100%;
+    height: 110px;
+}
+.logo{
+    width: 50%;
+    padding-top: 35px;
+    padding-left: 150px;
+    float: left;
+
+}
+.menu{
+    float: left;
+    padding-top: 30px;
+}
+.menu ul{
+    display: inline-flex;
+    list-style: none;
+}
+.menu ul li{
+    margin: 20px;
+    font-size: small;
+}
+.home-image{
+    width: 100%;
+    height: 700px;
+    background: url(./images/home-image.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+}
+.home-image span{
+    font-size: 50px;
+    font-weight: 20px;
+    border-bottom: 2px solid;
+    padding: 5px;
+}
+.home-image p{
+    font-size: 25px;
+    margin-top: 10px;
+}
+.home-image button{
+    margin-top: 520px;
+    width: 200px;
+    height: 50px;
+}
+.home-image button:hover{
+    background: none;
+    border:2px solid white ;
+    color: white;
+}
+.shop{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    padding-top: 50px;
+}
+.tools{
+    margin-left: 350px;
+    display: inline-flex;
+    text-align: center;
+    border-bottom: 1px;
+}
+.tools div{
+    margin-left: 50px;
+}
+.tools ul{
+    list-style: none;
+}
+.tools ul li{
+    margin-top:5px;
+}
+.tools img{
+    width: 60px;
+    height: 60px;
+    filter: invert(90%) sepia(0%) saturate(1638%) hue-rotate(205deg) brightness(92%) contrast(74%);
+}
+.tools div span{
+    font-size: small;
+}
+.tools div:hover img{
+    filter: invert(36%) sepia(0%) saturate(0%) hue-rotate(103deg) brightness(94%) contrast(89%);
+}
+.tools div:hover span{
+    text-decoration: underline;
+}
+.head{
+    text-align: center;
+    font-size: larger;
+    padding-top: 70px;
+    padding-bottom: 50px;
+
+}
+.new-vehicle{
+    width:100%;
+    height: 300px;
+}
+.new-vehicle div{
+    float: left;
+    margin:0 5px;
+    padding-left: 5px;
+    overflow: hidden;
+}
+.rz{
+    width: 400px;
+    height: 300px;
+    background: url(./images/lexus-RZ.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: 0.5s;
+}
+.is{
+    width: 400px;
+    height: 300px;
+    background: url(./images/lexus-is350.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: 0.5s;
+}
+.rx{
+    width: 400px;
+    height: 300px;
+    background: url(./images/lexus-rx.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: 0.5s;
+}
+.rz:hover,.is:hover,.rx:hover{
+    transform: scale(1.1);
+}
+.list{
+    width: 100%;
+    height: 200px;
+}
+.list div{
+    width: 410px;
+    height: 20px;
+    margin-left: 10px;
+    text-align: center;
+    display: inline-flex;
+}
+.list ul{
+    list-style: none;
+}
+.list li{
+    margin-top: 25px;
+}
+.list span{
+    font-size: 20px;
+}
+.list p{
+    font-size: 15px;
+}
+.list button{
+    width: 200px;
+    height: 50px;
+    margin-top: 30px;
+    border: 2px solid black;
+    background: none;
+}
+.list a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.list button:hover{
+    background: black;
+    border: white;
+    color: white;
+}
+.explore-head{ 
+    width: 100%;
+    height: 200px;
+    text-align: center;
+}
+.explore-head .head{
+    margin-bottom: 20px;
+}
+.explore-list ul{
+    list-style: none;
+    display: inline-flex;
+}
+.explore-list{
+    width: 100%;
+    height: 50px;
+}
+.explore-list .active a{
+    color:rgb(49, 32, 32);
+    text-decoration: none;
+}
+.explore-list .active{
+    margin: 0 15px;
+    padding-top: 10px;
+    font-size: small;
+}
+.explore-list .active:hover a{
+    font-weight:bold;
+    text-decoration: underline;
+}
+.active0{
+    width:100%;
+    height: 100px;
+    list-style: none;
+    margin-top: 50px;
+    margin-left: -500px;
+    position: absolute;
+}
+.active0 img{
+    width: 120px;
+    height: 120px;
+    margin-left:40px;
+}
+.image1{
+    width: 100%;
+    height: 400px;
+    margin-top: 150px;
+    background: url(./images/drop-down-image/pexels-photo.jpg);
+    background-position:center ;
+    background-size: cover;
+}
+.image1-head{
+    width: 500px;
+    height: 200px;
+    float: left;
+    margin-top: 150px;
+    color: white;
+    margin-left: 50px;
+}
+.image1-head p{
+    font-size: 10px;
+}
+.image1-head h1{
+    font-size: 50px;
+}
+.image1-head button{
+    width: 200px;
+    height: 50px;
+    margin-top: 50px;
+    font-size: bold;
+    border: none;
+}
+.image1-head button:hover{
+    border: 2px solid white;
+    background: none;
+    color: white;
+}
+.image-png img{
+    width: 600px;
+    height: 400px;
+    margin-top: 100px;
+}
+.png-color{
+    margin-top: -50px;
+    box-sizing: border-box;
+}
+.png-color ul{
+    list-style: none;
+    display: inline-flex;
+
+}
+.png-color li{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    margin: 0 10px;
+}
+.png-color li:hover{
+    border: 3px solid rgb(75, 75, 17);
+}
+.png-color p{
+    margin-left: 10px;
+}
+.feature{
+    text-align: center;
+    margin-top: 200px;
+}
+.feature .header span{
+    font-size: 20px;
+}
+.feature .header p{
+    margin-top: 20px;
+}
+.feature .image{
+    width: 100%;
+    height: 350px;
+    margin-top: 20px;
+    background: url(./images/Lexus-FCV-homepage-LEX-FLN-MY24-0006-desktop-1920x467.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.feature .button{
+    width: 100%;
+    height: 200px;
+}
+.feature .button button{
+    width: 200px;
+    height: 50px;
+    margin-top: 50px;
+    background: none;
+    border: 2px solid black;
+}
+.feature .button button:hover{
+    background: black;
+    color:white
+}
+.collage .header{
+    width:100%;
+    height: 50px;
+    padding-top: 50px;
+    font-size: 20px;
+    text-align: center;
+}
+.collage .cars{
+    width: 100%;
+    height: 500px;
+    display: inline flex;
+    text-align: center;
+}
+.collage .cars .image1{
+    width: 400px;
+    height: 500px;
+    background-image: url(./images/image1.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 10px;
+}
+.collage .cars .image1 h3{
+    margin-top: 400px;
+    color: white;
+    font-size: 15px;
+}
+.collage .cars .image2{
+    width: 400px;
+    height: 245px;
+    background-image: url(./images/image2.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 10px;
+}
+.collage .cars .image2 h3{
+    padding-top: 150px;
+    color: white;
+    font-size: 15px;
+}
+.collage .cars .image3{
+    width: 400px;
+    height: 245px;
+    background-image: url(./images/image3.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 10px;
+}
+.collage .cars .image3 h3{
+    padding-top: 150px;
+    color: white;
+    font-size: 15px;
+}
+.collage .cars .image4{
+    width: 400px;
+    height: 500px;
+    background-image: url(./images/image4.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 10px;
+}
+.collage .cars .image4 h3{
+    margin-top: 400px;
+    color: white;
+    font-size: 15px;
+}
+.cars button{
+    margin-top: 10px;
+    width: 150px;
+    height: 40px;
+}
+.cars button:hover{
+    border: 2px solid white;
+    background: none;
+    color: white;
+}
+     
+
+
+
+.collage2 .header2{
+    width:100%;
+    height: 50px;
+    padding-top: 50px;
+    font-size: 20px;
+    text-align: center;
+}
+.collage2 .cars2{
+    width: 100%;
+    height: 500px;
+    display: inline flex;
+    text-align: center;
+}
+.collage2 .cars2 .image5{
+    width: 400px;
+    height: 500px;
+    background-image: url(./images/image5.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 10px;
+}
+.collage2 .cars2 .image5 h3{
+    margin-top: 400px;
+    color: white;
+    font-size: 15px;
+}
+.collage2 .cars2 .image6{
+    width: 400px;
+    height: 245px;
+    background-image: url(./images/image6.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 10px;
+}
+.collage2 .cars2 .image6 h3{
+    padding-top: 150px;
+    color: white;
+    font-size: 15px;
+}
+.collage2 .cars2 .image7{
+    width: 400px;
+    height: 245px;
+    background-image: url(./images/image7.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 10px;
+}
+.collage2 .cars2 .image7 h3{
+    padding-top: 150px;
+    color: white;
+    font-size: 15px;
+}
+.collage2 .cars2 .image8{
+    width: 400px;
+    height: 500px;
+    background-image: url(./images/image8.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 10px;
+}
+.collage2 .cars2 .image8 h3{
+    margin-top: 400px;
+    color: white;
+    font-size: 15px;
+}
+.cars2 button{
+    margin-top: 10px;
+    width: 150px;
+    height: 40px;
+}
+.cars2 button:hover{
+    border: 2px solid white;
+    background: none;
+    color: white;
+}
+
+
+
+.collage3 .header3{
+    width:100%;
+    height: 50px;
+    padding-top: 50px;
+    font-size: 20px;
+    text-align: center;
+}
+.collage3 .cars3{
+    width: 100%;
+    height: 500px;
+    display: inline flex;
+    text-align: center;
+}
+.collage3 .cars3 .image9{
+    width: 400px;
+    height: 500px;
+    background-image: url(./images/image9.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 10px;
+}
+.collage3 .cars3 .image9 h3{
+    margin-top: 400px;
+    color: white;
+    font-size: 15px;
+}
+.collage3 .cars3 .image10{
+    width: 400px;
+    height: 245px;
+    background-image: url(./images/image10.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 10px;
+}
+.collage3 .cars3 .image10 h3{
+    padding-top: 150px;
+    color: white;
+    font-size: 15px;
+}
+.collage3 .cars3 .image11{
+    width: 400px;
+    height: 245px;
+    background-image: url(./images/image11.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 10px;
+}
+.collage3 .cars3 .image11 h3{
+    padding-top: 150px;
+    color: white;
+    font-size: 15px;
+}
+.collage3 .cars3 .image12{
+    width: 400px;
+    height: 500px;
+    background-image: url(./images/image12.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 10px;
+}
+.collage3 .cars3 .image12 h3{
+    margin-top: 400px;
+    color: white;
+    font-size: 15px;
+}
+.cars3 button{
+    margin-top: 10px;
+    width: 150px;
+    height: 40px;
+}
+.cars3 button:hover{
+    border: 2px solid white;
+    background: none;
+    color: white;
+}
+.new-head2{
+    text-align: center;
+    font-size: larger;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+.new-vehicle2{
+    width:100%;
+    height: 300px;
+}
+.new-vehicle2 div{
+    float: left;
+    margin:0 5px;
+    padding-left: 5px;
+    overflow: hidden;
+}
+.motorsport{
+    width: 400px;
+    height: 300px;
+    background: url(./images/motorsport.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: 0.5s;
+}
+.experience{
+    width: 400px;
+    height: 300px;
+    background: url(./images/experience.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: 0.5s;
+}
+.collection{
+    width: 400px;
+    height: 300px;
+    background: url(./images/collection.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: 0.5s;
+}
+.motorsport:hover,.experience:hover,.collection:hover{
+    transform: scale(1.1);
+}
+.list1{
+    width: 100%;
+    height: 200px;
+}
+.list1 div{
+    width: 410px;
+    height: 20px;
+    margin-left: 10px;
+    text-align: center;
+    display: inline-flex;
+}
+.list1 ul{
+    list-style: none;
+}
+.list1 li{
+    margin-top: 25px;
+}
+.list1 span{
+    font-size: 20px;
+}
+.list1 button{
+    width: 200px;
+    height: 50px;
+    margin-top: 30px;
+    border: 2px solid black;
+    background: none;
+}
+.list1 a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.list1 button:hover{
+    background: black;
+    border: white;
+    color: white;
+}
+.conclusion{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+.conclusion p{
+    margin: 20px;
+}
+.conclusion h3{
+    text-decoration: underline;
+}
+.conclusion:hover{
+    opacity: 0.7;
+}
+.footer{
+    width: 100%;
+    height: 500px;
+    padding: 30px;
+    background: black;
+    color: white;
+}
+.foot1{
+    width: 200px;
+    height: 500px;
+    margin-left: 20px;
+    margin-right: 50px;
+    float: left;
+
+}
+.foot1 ul{
+    list-style: none;
+}
+.foot1 li{
+    margin: 10px;
+    font-size: 11px;
+}
+.social-icons{
+    list-style: none;
+    display: inline-flex;
+}
+.social-icons li{
+    margin: 5px;
+}
+.social-icons img{
+    width: 20px;
+    height: 20px;
+    filter: invert(100%) sepia(50%) saturate(2%) hue-rotate(38deg) brightness(109%) contrast(100%);
+}
+.foot2{
+    width: 320px;
+    height: 400px;
+    margin-top: 10px;
+    margin-left: 20px;
+    float: left;
+}
+.foot2 div{
+    margin-bottom: 30px;
+}
+.foot2 h4{
+    font-size: 10px;
+    margin-left: 17px;
+}
+.foot2 ul{
+    list-style: none;
+}
+.foot2 li{
+    margin: 15px;
+    font-size: 10px;
+    color: rgb(161, 155, 155);
+}
+.foot3{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    margin-left: -30px;
+    margin-top: -60px;
+    float: left;
+}
+.foot3 h5{
+    font-size: 10px;
+    text-decoration: underline;
+}
+.foot3 p{
+    font-size: 10px;
+    line-height: 15px;
+}
+
